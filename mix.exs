@@ -3,12 +3,12 @@ defmodule ExPdfReader.MixProject do
 
   def project do
     [
-      app: :poppler_pdf_wrapper,
+      app: :ex_pdf_reader,
       version: "0.1.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      description: "A wrapper library for reading PDFs using poppler rendering library",
+      description: "A Elixir library for reading PDFs using poppler rendering library",
       package: package()
     ]
   end
